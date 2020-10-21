@@ -1,0 +1,12 @@
+{
+  "name": "workers",
+  "version": "1.0.0",
+  "description": "workers implementations",
+  "main": "index.js",
+  "author": "Andres Felipe Giraldo Granada<andres57706@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node --inspect=0.0.0.0:9229 --experimental-worker ./count_numbers/index.js"
+  }
+}
