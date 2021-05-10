@@ -27,5 +27,5 @@ const howSum = (targetSum, numbers, memo = {}) => {
 
 
 
-console.log(howSum(100, [6, 5])); // [ 5, 5 ]
+console.log(howSum(38, [6, 5])); // [ 5, 5 ]
 console.log(howSum(300, [7, 14])); // null
